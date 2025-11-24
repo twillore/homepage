@@ -1,0 +1,119 @@
+/* --- Basic Reset & Typography --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.7;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* --- Link Style --- */
+a { /*リンクの基本スタイル*/
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover { /*リンクのホバー時のスタイル*/
+    text-decoration: underline;
+}
+
+/* --- Header & Footer --- */
+header, footer {
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1 {
+    color: #222;
+    margin-top: 0;
+}
+footer {
+    margin-top: 60px;
+    font-size: 0.9em;
+    color: #777;
+}
+/* --- For Site Title in Header --- */
+.site-title {
+    font-size: 1.8em; /* h1に近いサイズに調整 */
+    font-weight: bold;
+    margin: 0.67em 0; /* h1が持つデフォルトの余白を再現 */
+    border-bottom: 2px solid #eee; /* 下線を追加 */
+    padding-bottom: 10px; /* 下線のためのパディング */
+}
+.site-title a {
+    color: inherit; /* 親要素の文字色を継承（黒っぽくする） */
+    text-decoration: none;
+}
+
+/* --- Content Section --- */
+.section {
+    margin-bottom: 40px;
+}
+h2 {
+    color: #333;
+    border-bottom: 1px solid #ddd; /* セクションタイトルの下線 */
+    padding-bottom: 8px; /* 下線のためのパディング */
+}
+
+/* --- Blog Post List (For index.html) --- */
+.blog-list ul { /*ブログ記事一覧*/
+    list-style: none;
+    padding: 0;
+}
+.blog-list li { /*ブログ記事のリスト項目*/
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.post-date { /*投稿日*/
+    font-size: 0.9em;
+    color: #888;
+    margin-right: 10px;
+}
+
+/* --- Styles for Blog Post Pages --- */
+
+/* 記事ページの日付表示用のスタイル */
+.article-dates {
+    margin-bottom: 30px;
+    padding-left: 10px;
+    border-left: 3px solid #007bff;
+    color: #666;
+    font-size: 0.9em;
+}
+.article-dates p {
+    margin: 5px 0;
+}
+
+
+
+.article-content h1, 
+.article-content h2, 
+.article-content h3 { 
+    font-weight: bold;
+}
+.article-content blockquote { /*引用*/
+    margin: 1.5em 0;
+    padding: 0.5em 1em;
+    border-left: 5px solid #ddd;
+    background-color: #f4f4f4;
+    color: #555;
+}
+.article-content ul { /*箇条書き*/
+    padding-left: 20px;
+}
+.article-content strong { /*強調テキスト*/
+    color: #112580; /* 少し青みをつけて強調 */
+}
+
+
+/* 本の紹介用画像のスタイル */
+.book-image {
+  width: 300px;    /* 基本は300pxで表示 */
+  max-width: 100%; /* スマホで300pxより狭い場合は画面に合わせる */
+  height: auto;
+  display: block;  /* 画像をブロック要素にして */
+  margin: 0 auto;  /* 中央寄せにする（お好みで） */
+}

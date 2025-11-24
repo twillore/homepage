@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    ...
+    <title>[ここに記事のタイトルを記述] - 琴葉の綾</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- ▼▼▼▼▼ 最小限のOGP設定 ▼▼▼▼▼ -->
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://twillore.github.io/homepage/blog/[この記事のファイル名].html">
+    <meta property="og:title" content="[ここに記事のタイトルを記述]">
+    <meta property="og:description" content="[ここに記事の簡単な説明を記述]">
+    <meta property="og:site_name" content="琴葉の綾"> <!-- サイト名を追加 -->
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary"> <!-- summary_large_image から summary に変更 -->
+    <meta name="twitter:title" content="[ここに記事のタイトルを記述]">
+    <meta name="twitter:description" content="[ここに記事の簡単な説明を記述]">
+
+    <!-- ▲▲▲▲▲ ここまで ▲▲▲▲▲ -->
+</head>
+<body>
+
+    <header>
+        <div class="site-title"><a href="../index.html">琴葉の綾</a></div>
+    </header>
+
+    <main class="article-content">
+    
+    <!-- ▼▼▼▼▼ ここから下に、Markdownから変換したHTMLの「本文」を貼り付ける ▼▼▼▼▼ -->
+    <!-- h1タグ（記事タイトル）が一番上に来るように貼り付けてください -->
+
+
+    <!-- 【重要】h1（記事タイトル）のすぐ下に、この日付ブロックが来るようにしてください -->
+    <!-- もし変換後のHTMLにh1が含まれていない場合は、手動でh1タグを追加してください -->
+    <!-- 例: <h1>記事のタイトル</h1> -->
+    
+    <!--
+    【日付表示ブロックのテンプレート】
+    記事のh1タグのすぐ下に、このブロックをコピー＆ペーストして日付を記入してください。
+    更新しない場合は、「最終更新日」の行は削除してもOKです。
+
+    <div class="article-dates">
+        <p>作成日: [YYYY.MM.DD]</p>
+        <p>最終更新日: [YYYY.MM.DD]</p>
+    </div>
+    -->
+
+
+    
+    <!-- ▲▲▲▲▲ ここから上まで ▲▲▲▲▲ -->
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copyright-year">2025</span> 綾つむぎ. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://twillore.github.io/homepage/index.html</loc>
+        <lastmod>2025-08-19</lastmod> <!-- そのページを最後に更新した日 -->
+    </url>
+    <url>
+        <loc>https://twillore.github.io/homepage/about.html</loc>
+        <lastmod>2025-08-19</lastmod>
+    </url>
+    <url>
+        <loc>https://twillore.github.io/homepage/blog/pisa2018-methodology-review.html</loc>
+        <lastmod>2025-08-19</lastmod>
+    </url>
+     <url>
+        <loc>https://twillore.github.io/homepage/blog/nakasenndainoran-suzukiyumi.html</loc>
+        <lastmod>2025-11-24</lastmod>
+    </url>   
+    <!-- 新しい記事を追加したら、<url>ブロックをコピーしてここに追加していく -->
+</urlset>
